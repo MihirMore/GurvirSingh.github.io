@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.kisho.project.Register">
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/user1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etName"
+            android:layout_alignStart="@+id/etName"
+            android:layout_below="@+id/etEmail"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@mipmap/phone"
+            android:ems="10"
+            android:hint="Mobile number"
+            android:inputType="phone"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/etContact"
+            android:layout_alignRight="@+id/etContact"
+            android:drawableLeft="@mipmap/veh"
+            android:layout_below="@+id/etContact"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="Vehicle number"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etNumber"
+            android:layout_alignStart="@+id/etNumber"
+            android:layout_below="@+id/etNumber"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape"
+            android:drawableLeft="@mipmap/pass1"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:drawableLeft="@mipmap/email"
+            android:layout_below="@id/etName"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape"
+            android:textSize="20dp"
+            android:inputType="textEmailAddress"/>
+
+        <Button
+            android:id="@+id/btnOTP"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPass"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/corner"
+            android:layout_marginTop="25dp"
+            android:textSize="20dp"
+            android:text="Request OTP" />
+
+        <EditText
+            android:id="@+id/etotp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="Enter OTP"
+            android:drawableLeft="@mipmap/pin"
+            android:inputType="number"
+            android:textSize="20dp"
+            android:layout_below="@+id/btnOTP"
+            android:layout_alignLeft="@+id/etPass"
+            android:layout_alignStart="@+id/etPass" />
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner"
+            android:textSize="20dp"
+            android:text="Done"
+            android:layout_below="@+id/etotp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp" />
+    </RelativeLayout>
+
+
+</ScrollView>
