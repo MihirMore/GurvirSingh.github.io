@@ -7,7 +7,12 @@ Security of a vehicle in common parking places has been a matter of concern sinc
 
 <br />
 <br />
-Team of Developers:<br />
+## Details of Project
+-[Source-Code](https://github.com/MihirMore/GurvirSingh.github.io)
+-[Live Version](https://gurvirsingh.github.io/)
+<br />
+<br />
+Team of Developers:<br /><br />
 <a href="https://github.com/GurvirSingh"> Gurvir Singh Bhogal </a> <br />
 <a href="https://github.com/MihirMore"> Mihir More </a> <br />
 <a href="https://github.com/kvavdara"> Kishor Vavdra </a>
